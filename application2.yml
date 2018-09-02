@@ -5,11 +5,11 @@ spring:
 --- 
 spring: 
     profiles: dev 
-        application：
-            name：microservicecloud-config-bdqn-dev 
+        application:  
+            name: microservicecloud-config-bdqn-dev 
 --- 
 spring: 
     profiles: test 
-        application： 
-            name：microservicecloud-config-bdqn-test 
+        application:   
+            name:  microservicecloud-config-bdqn-test 
 # 请保存为UTF-8格式 
