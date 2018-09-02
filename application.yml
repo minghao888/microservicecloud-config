@@ -1,15 +1,14 @@
 ﻿spring: 
     profiles: 
         active: 
-            - dev
+            dev
 ---         
 spring: 
-    profiles: dev       # 开发环境
+    profiles: dev      
         application: 
             name: microservicecloud-config-bdqn-dev
 ---
 spring: 
-    profiles: test      # 测试环境
+    profiles: test     
         application: 
             name: microservicecloud-config-bdqn-test
-# 请保存为utf-8格式
