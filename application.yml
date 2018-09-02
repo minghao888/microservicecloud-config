@@ -12,4 +12,4 @@ spring:
     profiles: test      # 测试环境
         application: 
             name: microservicecloud-config-bdqn-test
-# 请保存为utf-8格 式
+# 请保存为utf-8格式
