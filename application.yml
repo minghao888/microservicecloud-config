@@ -2,7 +2,7 @@
     profiles: 
         active: 
             dev
----         #分隔符，同一个文件不同的环境
+---         
 spring: 
     profiles: dev       # 开发环境
         application: 
