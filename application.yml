@@ -1,0 +1,15 @@
+﻿spring: 
+    profiles: 
+        active: 
+            dev
+---         #分隔符，同一个文件不同的环境
+spring: 
+    profiles: dev       # 开发环境
+        application: 
+            name: microservicecloud-config-bdqn-dev
+---
+spring: 
+    profiles: test      # 测试环境
+        application: 
+            name: microservicecloud-config-bdqn-test
+# 请保存为utf-8格式
