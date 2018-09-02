@@ -5,8 +5,7 @@
 ---         
 spring: 
     profiles: dev
-        application:::
-            name: microservicecloud-config-bdqn-dev
+        name: microservicecloud-config-bdqn-dev
 ---
 spring: 
     profiles: test
